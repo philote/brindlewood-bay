@@ -45,6 +45,6 @@
       "flags": {}
     }
   ],
-  "manifest": "https://github.com/Lavncelot/brindlewood-bay/blob/main/module.json",
-  "download": "https://github.com/Lavncelot/brindlewood-bay/blob/main/brindlewood-bay.zip"
+  "manifest": "https://raw.githubusercontent.com/Lavncelot/brindlewood-bay/main/module.json",
+  "download": "https://github.com/Lavncelot/brindlewood-bay/archive/refs/heads/main.zip"
 }
