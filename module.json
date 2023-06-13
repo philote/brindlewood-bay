@@ -1,0 +1,50 @@
+{
+  "id": "brindlewood-bay",
+  "title": "Brindlewood Bay",
+  "description": "Brindlewood Bay module for use with Powered by the Apocalypse system.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Lavncelot",
+      "discord": "lavncelot",
+      "email": "lavncelot@gmail.com",
+      "flags": {}
+    },
+    {
+      "name": "Phenomen",
+      "discord": "phenomen",
+      "flags": {}
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "pbta",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": "scripts/index.js",
+  "styles": "styles/style.css",
+  "packs": [
+    {
+      "label": "Brindlewood Bay",
+      "name": "brindlewood-bay",
+      "type": "Adventure",
+      "system": "pbta",
+      "path": "packs/brindlewood-bay",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "manifest": "https://www.dropbox.com/s/g9qesa31mzgu2lk/module.json?dl=1",
+  "download": "https://www.dropbox.com/s/z8lopkwo4d7dpu6/brindlewood-bay.zip?dl=1"
+}
