@@ -1,0 +1,171 @@
+@font-face {
+  font-family: "Quaint Gothic";
+  src: url(./fonts/quaintgothicsgot.otf) format("opentype");
+}
+
+:root {
+  --bb-color-bg: #e7e5e4;
+  --bb-color-primary: #7f1d1d;
+  --bb-color-primary-light: #991b1b;
+  --bb-color-accent: #064e3b;
+  --bb-color-accent-light: #047857;
+
+  --font-headers: "Quaint Gothic", serif;
+}
+
+.vtt .window-app {
+  color: #000;
+  background: var(--bb-color-primary);
+}
+
+.vtt .window-app .window-header .window-title {
+  color: #fff;
+}
+
+.vtt .sidebar-tab .directory-header .header-search input {
+  background: var(--bb-color-bg);
+  color: var(--bb-color-accent);
+}
+
+.vtt .window-app a:hover,
+.vtt .window-app a:focus,
+.vtt .window-app.filepicker .file-directory > li:hover,
+.vtt .window-app.filepicker .file-directory > li:focus {
+  color: #fff;
+}
+
+.vtt .window-app .tabs .item.active {
+  color: #fff;
+}
+
+.action-buttons button,
+.action-buttons button.create,
+.vtt .window-app .dialog-buttons .dialog-button,
+.vtt .window-app .dialog-button,
+.app.sidebar-popout .window-content button {
+  background: var(--bb-color-accent);
+  color: #fff;
+}
+
+.action-buttons button:hover,
+.action-buttons button.create:hover,
+.vtt .window-app .dialog-buttons .dialog-button:hover,
+.vtt .window-app .dialog-button:hover,
+.app.sidebar-popout .window-content button:hover {
+  background: var(--bb-color-accent-light);
+  color: #fff;
+}
+
+.vtt #chat-log .cell__title {
+  font-family: var(--font-headers);
+}
+
+.pbta.sheet .sheet-wrapper .sheet-bottom {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.pbta.sheet .cell__checkboxes.flexcol {
+  max-width: 90%;
+}
+
+.pbta.sheet .cell__checkboxes input[type="checkbox"] {
+  zoom: 0.9;
+  margin-right: 5px;
+}
+
+.pbta.sheet .cell__checkboxes label.flexrow {
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 7px;
+}
+
+.pbta.sheet .sheet-attributes .cell--stats .stat {
+  background: var(--bb-color-primary);
+}
+
+.pbta.sheet {
+  background: var(--bb-color-primary);
+}
+
+.pbta.sheet .window-content {
+  background: var(--bb-color-bg);
+}
+
+.pbta.sheet .tabs .item {
+  border-bottom: 2px solid var(--bb-color-accent);
+  background: var(--bb-color-accent);
+}
+
+.pbta.sheet .tabs .item.active {
+  background: var(--bb-color-accent-light);
+  border-bottom: 2px solid var(--bb-color-accent-light);
+}
+
+.ct-item button:hover {
+  background: var(--bb-color-primary-light);
+}
+
+.pbta.sheet .sheet-attributes .cell--stats .stat {
+  background: var(--bb-color-primary);
+}
+
+.pbta.sheet .sheet-attributes .cell--stats .stat.hover {
+  background: var(--bb-color-primary-light);
+}
+
+.pbta.sheet .tabs .item:hover,
+.pbta.sheet .tabs .item:focus,
+.pbta.sheet .tabs .item.active:hover,
+.pbta.sheet .tabs .item.active:focus {
+  background: var(--bb-color-accent-light);
+  color: #fff;
+  border: 2px solid var(--bb-color-accent);
+}
+
+.pbta.sheet .tabs {
+  border-bottom: 2px solid var(--bb-color-accent);
+}
+
+.pbta.sheet .cell__title {
+  font-weight: normal;
+  font-family: var(--font-headers);
+  border-bottom: 2px solid var(--bb-color-primary);
+}
+
+.pbta.sheet .sheet-wrapper .sheet-attributes-top .cell--attributes-top .cell {
+  display: flex;
+  flex-direction: column;
+  align-content: start;
+}
+
+.pbta.sheet .item-group-label,
+.pbta.sheet h1,
+.pbta.sheet h2 {
+  font-weight: normal;
+  font-family: var(--font-headers);
+}
+
+.pbta.sheet .cell__title button,
+.pbta.sheet .cell__subtitle button {
+  background: var(--bb-color-accent);
+  color: #fff;
+  border: 1px solid var(--bb-color-accent);
+}
+
+.pbta.sheet .cell__title button:hover,
+.pbta.sheet .cell__subtitle button:hover {
+  background: var(--bb-color-accent-light);
+  color: #fff;
+  border: 1px solid var(--bb-color-accent-light);
+}
+
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+  accent-color: var(--bb-color-primary);
+}
+
+.pbta.sheet .cell--image img {
+  border: 1px solid var(--bb-color-primary);
+  object-fit: cover;
+}
