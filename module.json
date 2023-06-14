@@ -1,5 +1,6 @@
 {
   "id": "brindlewood-bay",
+  "name": "brindlewood-bay",
   "title": "Brindlewood Bay",
   "description": "Brindlewood Bay module for use with Powered by the Apocalypse system.",
   "version": "1.0.0",
@@ -20,21 +21,14 @@
       "flags": {}
     }
   ],
-  "relationships": {
-    "requires": [
-      {
-        "id": "pbta",
-        "type": "system",
-        "compatibility": {}
-      }
-    ]
-  },
-  "esmodules": "scripts/index.js",
-  "styles": "styles/style.css",
+  "esmodules": ["scripts/index.js"],
+  "styles": ["styles/style.css"],
+  "coreTranslation": false,
   "packs": [
     {
       "label": "Brindlewood Bay",
       "name": "brindlewood-bay",
+      "banner": "modules/brindlewood-bay/art/bb-start.webp",
       "type": "Adventure",
       "system": "pbta",
       "path": "packs/brindlewood-bay",
@@ -45,6 +39,7 @@
       "flags": {}
     }
   ],
+  "url": "https://www.gauntlet-rpg.com/brindlewood-bay",
   "manifest": "https://raw.githubusercontent.com/Lavncelot/brindlewood-bay/main/module.json",
   "download": "https://github.com/Lavncelot/brindlewood-bay/archive/refs/heads/main.zip"
 }
