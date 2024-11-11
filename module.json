@@ -24,6 +24,13 @@
   "esmodules": ["scripts/index.js"],
   "styles": ["styles/style.css"],
   "coreTranslation": false,
+  "languages": [
+    {
+      "lang": "it",
+      "name": "Italiano",
+      "path": "lang/it.json"
+    }
+  ],
   "packs": [
     {
       "label": "Brindlewood Bay",
@@ -40,6 +47,6 @@
     }
   ],
   "url": "https://www.gauntlet-rpg.com/brindlewood-bay",
-  "manifest": "https://raw.githubusercontent.com/Lavncelot/brindlewood-bay/main/module.json",
+  "manifest": "https://raw.githubusercontent.com/Babaori77/brindlewood-bay/main/module.json",
   "download": "https://github.com/Lavncelot/brindlewood-bay/archive/refs/heads/main.zip"
 }
